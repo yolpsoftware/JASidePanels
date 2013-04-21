@@ -40,7 +40,7 @@
             iter = nil;
         }
     }
-    return nil;
+    return self.navigationController.sidePanelController;
 }
 
 @end
